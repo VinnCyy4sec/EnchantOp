@@ -2,7 +2,9 @@
   "version": 1,
   "package": "com.vinncy.enchantop.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "EnchantmentMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
