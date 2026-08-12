@@ -1,13 +1,41 @@
+# Gradle
 .gradle/
 build/
-.idea/
-*.iml
-*.ipr
-*.iws
-.DS_Store
-run/
 out/
-*.log
-.project
-.classpath
+
+# IDE
+.idea/
+.vscode/
 *.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+
+# Java
+*.class
+*.jar
+*.zip
+*.tar.gz
+
+# Minecraft
+run/
+runs/
+.minecraft/
+
+# Environment
+.env
+.env.local
+local.properties
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Fabric
+libraries/
+versions/
+*.lzma
+*.json.bak
