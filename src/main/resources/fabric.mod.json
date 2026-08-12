@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantop",
+  "version": "${version}",
+  "name": "EnchantOp",
+  "description": "Fabric 1.21 Mod with 15 Custom Enchantments and Abilities",
+  "authors": [
+    "VinnCyy4sec"
+  ],
+  "contact": {
+    "homepage": "https://github.com/VinnCyy4sec/EnchantOp"
+  },
+  "license": "MIT",
+  "icon": "assets/enchantop/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.vinncy.enchantop.EnchantOpMod"
+    ]
+  },
+  "mixins": [
+    "enchantop.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21"
+  }
+}
